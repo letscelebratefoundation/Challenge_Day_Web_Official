@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/letscelebratefoundation/Challenge_Day_Web_Official#readme",
   "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
