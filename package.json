@@ -1,0 +1,19 @@
+{
+  "name": "challenge_day_web_official",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letscelebratefoundation/Challenge_Day_Web_Official.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/letscelebratefoundation/Challenge_Day_Web_Official/issues"
+  },
+  "homepage": "https://github.com/letscelebratefoundation/Challenge_Day_Web_Official#readme"
+}
