@@ -1,0 +1,339 @@
+#myFooter {
+    background-color: #ff5260;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color:#c9ced6;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+.nav-item{
+margin-left: 20px;
+padding: 20px;
+}
+
+.nav-item :hover{
+    background-color:#b27db2;
+    border-radius: 7.5%;
+    color: white !important;
+    
+}
+.nav-item :hover > .dropdown-item{
+    background-color:white !important;
+    border-radius: 0%;
+    color:#814c81 !important;
+    
+}
+.nav-item :hover >.d1:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d2:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d3:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d4:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d5:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d6:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+
+hr.style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(121, 0, 105, 0.692), rgba(0, 0, 0, 0));
+}
+
+@media(max-width:575px){
+   .graphic{
+       float: none !important;
+      
+   } 
+    p{
+       font-size: 20px !important;
+       margin: 0 auto;
+   }
+}
+
+h1{
+    
+    text-align: center;
+    
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+html {
+    scroll-behavior: smooth;
+  }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: black;
+}
+
+.fa-github {
+  background: transparent;
+  color: black;
+}
+.fa-twitter {
+  background: transparent;
+  color: black;
+}
+
+.fa-google {
+  background: transparent;
+  color: black;
+}
+
+.fa-linkedin {
+  background: transparent;
+  color: black;
+}
+
+.footer {
+  position: vary;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #814c81;
+  color: white;
+  text-align: center;
+}
+.card-title{
+    font-family: Raleway !important;
+    font-weight: 600;
+
+}
+.card-text{
+    font-family: Raleway !important;
+    font-weight: 300;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+    background-color:white !important;
+    border-radius: 0%;
+    color:#814c81 !important;
+}
+.imp{
+    font-weight: 500 !important;
+    text-align: center;
+    font-size: 1.2rem;
+}
+body{
+background-color: #99659e;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+@media(max-width:991px){
+    .nav-item a{
+        text-align: center !important;
+
+        }
+        .nav-item :hover{
+            background-color:#b27db2;
+            color: white !important;
+            border-radius: 0;
+        }
+        .dropdown-item:hover{
+            border-radius: 0;
+            background-color:#b27db2 !important;
+            color: white !important;
+        }
+        #wrapper{
+            display: none;
+        }
+        .swiper-container{
+            display:block !important;
+        }
+        .circular{
+            display: block !important;
+            float:none !important;
+            border-radius: 5.5% !important;
+            shape-outside: none !important;
+            margin: 0 auto !important;
+            width:50% !important;
+          }
+          .one{
+              white-space: pre-line;
+          }
+}
+nav{
+    font-weight: bold !important;
+}
+.circular{
+    width: 25%;
+	height: auto;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+    shape-outside:circle(50%);
+    shape-image-threshold: 0.5;
+  }
+  #wrapper {
+	max-width: 900px;
+	max-height: 400px;
+	/* margin: 50px 0 0 450px; */
+	position: relative;
+	/* top: 50%;
+    left: 50%; */
+    
+}
+#carousel img {
+	display: block;
+	float: left;
+	border: none;
+    position: relative;
+    max-width: 900px;
+	max-height: 400px;
+    
+}
+  .swiper-container{
+      display: none;
+  }
+  .linked{
+      color: #814c81;
+  }
+ 
+  .ul {
+    text-align: center;
+    list-style-position: inside;
+  }
+  .test{
+      text-align: center;
+  }
+  .test ul{
+      display: inline-block;
+      text-align: left;
+  }
+  li{
+      text-align: left !important;
+  }
+  .rudeimage{
+      margin: 0 auto;
+      max-width: 650px;
+      display: block;
+  }
