@@ -27,8 +27,26 @@ app.get("/get_involved",(req,res)=>{
 app.get("/celebrity_wall",(req,res)=>{
     res.render("celebrity_wall");
 })
+app.get("/get_involved/sponsor",(req,res)=>{
+    res.render("form",{role:"sponsor"});
+});
+app.get("/get_involved/partner",(req,res)=>{
+    res.render("form",{role:"partner"});
+});
+app.get("/get_involved/intern",(req,res)=>{
+    res.render("form",{role:"volunteer"});
+});
 app.post("/get_involved",(req,res)=>{
-    
+    const msg = {
+        to:"challengedayindia@gmail.com",
+        from: 'mayankkapur556@gmail',
+        subject: 'Someone is interested in our organisation',
+        text: "Name: "+req.name+"Email: "+req.email+"Role: "+req.role+"Message: "+req.message,
+        html:"<b>Name:</b> "+req.name+"<b>Email:</b> "+req.email+"<b>Role:</b> "+req.role+"<b>Message:</b> "+req.message
+        
+      };
+      sgMail.send(msg);  
+      
 })
 
 let port = process.env.PORT;
