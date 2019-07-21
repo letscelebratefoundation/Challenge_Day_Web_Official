@@ -76,35 +76,33 @@
             </div>
         </nav>
         <hr class="style-two">
-        <br>
-        <br>
-        <div style="margin: 0 auto; background:linear-gradient(to right,#9a4899,#a573b1,#c4a2cb,#ecd5e6)">
-            <form action="/get_involved" method="POST">
+       
+        <div class="container-fluid" style="background:linear-gradient(to right,#9a4899,#a573b1,#a573b1,#9a4899)">
+        <div style="margin: 0 auto;" class="container">
+            <form action="/get_involved" method="POST" style="padding:100px;">
                 <div class="form-group">
                     <label for="exampleInputPassword1">Name</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your name here" name="name">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your name here" name="details[name]">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email" name="email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        placeholder="Enter email" name="details[email]">
+                    <small id="emailHelp" class="form-text text-muted" style="color: black !important">We'll never share your email with anyone
                         else.</small>
                 </div>
                 <div class="form-group">
-
-                    <select class="form-control" id="exampleFormControlSelect1" name="role" value="<%=role%>">
-                        <option>sponsor</option>
-                        <option>partner</option>
-                        <option>volunteer</option>
-                    </select>
+                    <label for="exampleFormControlSelect1">Role</label>
+                    <input type="text" class="form-control" id="exampleFormControlSelect1" name="details[role]" value="<%=role%>">
+                     
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="details[message]"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+        </div>
         </div>
     </div>
 </body>
