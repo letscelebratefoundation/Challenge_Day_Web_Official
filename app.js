@@ -5,7 +5,7 @@ app.set("view engine","ejs");
 const sgMail = require("@sendgrid/mail");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
-sgMail.setApiKey("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");
+sgMail.setApiKey("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");
 app.get("/",(req,res)=>{
     res.redirect("/home");
 })
@@ -33,19 +33,22 @@ app.get("/get_involved/sponsor",(req,res)=>{
 app.get("/get_involved/partner",(req,res)=>{
     res.render("form",{role:"partner"});
 });
-app.get("/get_involved/intern",(req,res)=>{
+app.get("/get_involved/volunteer",(req,res)=>{
     res.render("form",{role:"volunteer"});
 });
 app.post("/get_involved",(req,res)=>{
+    console.log(req.details);
     const msg = {
         to:"challengedayindia@gmail.com",
-        from: 'mayankkapur556@gmail',
+        from: 'mayankkapur2000@gmail.com',
         subject: 'Someone is interested in our organisation',
-        text: "Name: "+req.name+"Email: "+req.email+"Role: "+req.role+"Message: "+req.message,
-        html:"<b>Name:</b> "+req.name+"<b>Email:</b> "+req.email+"<b>Role:</b> "+req.role+"<b>Message:</b> "+req.message
+        text: "Name: "+req.body.details.name+"Email: "+req.body.details.email+"Role: "+req.body.details.role+"Message: "+req.body.details.message,
+        html:"<b>Name:</b> "+req.body.details.name+"<br><b>Email:</b> "+req.body.details.email+"<br><b>Role:</b> "+req.body.details.role+"<br><b>Message:</b> "+req.body.details.message
         
       };
+
       sgMail.send(msg);  
+      res.redirect("/get_involved")
       
 })
 
