@@ -355,3 +355,12 @@ nav{
       max-width: 650px;
       display: block;
   }
+   p{
+    font-weight: normal !important;
+    font-size: 1.6rem;
+    padding: 20px;
+    margin-right: 80px;
+   }
+   h1,h2{
+    font-family: 'Vesper Libre', serif !important;
+   }
