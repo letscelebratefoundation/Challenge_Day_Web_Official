@@ -359,8 +359,12 @@ nav{
     font-weight: normal !important;
     font-size: 1.6rem;
     padding: 20px;
+    
     margin-right: 80px;
    }
    h1,h2{
     font-family: 'Vesper Libre', serif !important;
+   }
+   .text-center{
+       padding-top: 20px;
    }
