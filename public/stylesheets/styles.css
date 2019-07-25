@@ -368,3 +368,25 @@ nav{
    .text-center{
        padding-top: 20px;
    }
+   @media (max-width:420px){
+    body{
+        
+    }
+    p{
+        text-align: left !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+        margin-top: 10px !important;
+    }
+    .box{
+       
+        margin-right: 20px !important;
+    }
+    img{
+        display: block !important;
+        margin:0 auto !important;
+    }
+    .founder{
+        border-right: none !important;
+    }
+   }
