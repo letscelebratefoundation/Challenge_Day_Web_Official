@@ -355,6 +355,11 @@ nav{
       max-width: 650px;
       display: block;
   }
+  .rudeimage1{
+    margin: 0 auto;
+    max-width: 400px;
+    display: block;
+}
    p{
     font-weight: normal !important;
     font-size: 1.3rem;
